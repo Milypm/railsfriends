@@ -4,3 +4,6 @@
 <br/>
 <%= link_to 'Show', @friend, class:"btn btn-primary" %>
 <%= link_to 'Back', friends_path, class:"btn btn-secondary" %>
+<br/><br/>
+<%= link_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' }, 
+    class:"btn btn-danger btn-sm" %>
